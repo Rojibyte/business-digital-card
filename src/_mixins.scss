@@ -1,0 +1,20 @@
+@mixin reset-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin defaultBlock {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+@mixin defaultFlex {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
