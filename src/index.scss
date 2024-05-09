@@ -1,45 +1,43 @@
-@import './mixins';
+@import "./mixins";
 
 * {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-body{
-    @include reset-list;
-    background: #23252C;
-    color: #FFF;
+body {
+  @include reset-list;
+  background: #23252c;
+  color: red($color: #000000);
 }
 
-.App{
-    @include defaultFlex;
+.App {
+  @include defaultFlex;
 }
 
-.bannerContainer{
-    @include defaultBlock;
+.bannerContainer {
+  @include defaultBlock;
 
-    img{
-        width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.cardContainer {
+  @include defaultBlock;
+  max-width: 320px;
+  background-color: #1a1b21;
+}
+
+.socialsContainer {
+  @include defaultFlex;
+  padding: 20px;
+  background-color: #161619;
+
+  div {
+    padding: 0 20px;
+
+    img {
+      width: 25px;
     }
-}
-
-.cardContainer{
-    @include defaultBlock;
-    max-width: 320px;
-    background-color: #1A1B21;
-}
-
-.socialsContainer{
-    @include defaultFlex;
-    padding: 20px;
-    background-color: #161619;
-
-    div{
-        padding: 0 20px;
-
-        img{
-            width: 25px;
-        }
-
-    }
-
+  }
 }

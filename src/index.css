@@ -1,13 +1,13 @@
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   list-style: none;
-  background: #23252C;
-  color: #FFF;
+  background: #23252c;
+  color: #fff;
 }
 
 .App {
@@ -16,20 +16,20 @@ body {
   display: flex;
   position: relative;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .bannerContainer {
   display: block;
   position: relative;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: left;
 }
 
@@ -41,10 +41,10 @@ body {
   display: block;
   position: relative;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: left;
   max-width: 320px;
-  background-color: #1A1B21;
+  background-color: #1a1b21;
 }
 
 .socialsContainer {
@@ -53,13 +53,13 @@ body {
   display: flex;
   position: relative;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 20px;
   background-color: #161619;
 }
